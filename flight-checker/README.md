@@ -51,11 +51,27 @@ new.
 
 ## Run it on your own computer
 
+macOS or Linux:
+
 ```sh
 cd flight-checker
 pip install -r requirements.txt
 python check_flights.py
 ```
+
+Windows PowerShell (needs [Python 3.10 or later](https://www.python.org/downloads/)):
+
+```powershell
+cd flight-checker
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe check_flights.py
+```
+
+After the first time, only the last line is needed.
+
+Local runs update your own copy of the state file. Before you `git pull`
+later, discard those changes with `git checkout -- state`.
 
 Options:
 

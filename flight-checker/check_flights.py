@@ -503,6 +503,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 
 def main(argv: list[str] | None = None) -> int:
+    # On Windows, redirected output uses the ANSI code page, which can't encode
+    # the report's ✈️ and →. Print "?" for those instead of crashing.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(errors="replace")
+
     args = parse_args(argv)
     today = local_today()
 
