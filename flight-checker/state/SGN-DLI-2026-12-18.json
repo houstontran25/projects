@@ -1,0 +1,90 @@
+{
+  "flights": {
+    "SGN 2026-12-18 06:10 -> DLI 2026-12-18 07:05 | Vietnam Airlines": {
+      "airlines": [
+        "Vietnam Airlines"
+      ],
+      "first_seen": "2026-10-06",
+      "legs": [
+        {
+          "arrives": "2026-12-18 07:05",
+          "departs": "2026-12-18 06:10",
+          "flight_number": "",
+          "from": "SGN",
+          "to": "DLI"
+        }
+      ],
+      "listed": true
+    },
+    "SGN 2026-12-18 06:30 -> DLI 2026-12-18 07:25 | Vietjet": {
+      "airlines": [
+        "Vietjet"
+      ],
+      "first_seen": "2026-10-06",
+      "legs": [
+        {
+          "arrives": "2026-12-18 07:25",
+          "departs": "2026-12-18 06:30",
+          "flight_number": "",
+          "from": "SGN",
+          "to": "DLI"
+        }
+      ],
+      "listed": true
+    },
+    "SGN 2026-12-18 09:55 -> DLI 2026-12-18 10:50 | Vietnam Airlines": {
+      "airlines": [
+        "Vietnam Airlines"
+      ],
+      "first_seen": "2026-10-06",
+      "legs": [
+        {
+          "arrives": "2026-12-18 10:50",
+          "departs": "2026-12-18 09:55",
+          "flight_number": "",
+          "from": "SGN",
+          "to": "DLI"
+        }
+      ],
+      "listed": true
+    },
+    "SGN 2026-12-18 16:20 -> DLI 2026-12-18 17:15 | Vietjet": {
+      "airlines": [
+        "Vietjet"
+      ],
+      "first_seen": "2026-10-06",
+      "legs": [
+        {
+          "arrives": "2026-12-18 17:15",
+          "departs": "2026-12-18 16:20",
+          "flight_number": "",
+          "from": "SGN",
+          "to": "DLI"
+        }
+      ],
+      "listed": true
+    },
+    "SGN 2026-12-18 17:25 -> DLI 2026-12-18 18:20 | Vietnam Airlines": {
+      "airlines": [
+        "Vietnam Airlines"
+      ],
+      "first_seen": "2026-10-06",
+      "legs": [
+        {
+          "arrives": "2026-12-18 18:20",
+          "departs": "2026-12-18 17:25",
+          "flight_number": "",
+          "from": "SGN",
+          "to": "DLI"
+        }
+      ],
+      "listed": true
+    }
+  },
+  "last_saved": "2026-10-06",
+  "route": {
+    "date": "2026-12-18",
+    "destination": "DLI",
+    "origin": "SGN"
+  }
+}
