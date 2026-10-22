@@ -79,9 +79,25 @@
         }
       ],
       "listed": true
+    },
+    "SGN 2026-12-18 18:20 -> DLI 2026-12-18 19:25 | Vietnam Airlines": {
+      "airlines": [
+        "Vietnam Airlines"
+      ],
+      "first_seen": "2026-10-22",
+      "legs": [
+        {
+          "arrives": "2026-12-18 19:25",
+          "departs": "2026-12-18 18:20",
+          "flight_number": "",
+          "from": "SGN",
+          "to": "DLI"
+        }
+      ],
+      "listed": true
     }
   },
-  "last_saved": "2026-10-20",
+  "last_saved": "2026-10-22",
   "route": {
     "date": "2026-12-18",
     "destination": "DLI",
